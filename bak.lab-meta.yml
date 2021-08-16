@@ -1,0 +1,101 @@
+-- https://issues.cosmos.esa.int/socciwiki/display/SCIAPPSBL/Lab+Specification+Document+Baseline
+-- Technical metadata (internal to Application Services)
+container_image:
+  name: "Test Lab"
+  tag: "TestLab#1"
+  id: "UniqTestLab1"
+submission:
+	name: "NM"
+	-- todo
+	date:
+validation:
+	-- todo
+	status: 
+	security:
+	date:
+	name: "SE"
+permissions:
+	users:
+	group:
+-- Common metadata (for interoperability; also discoverable)
+lab:
+	identifier: "TestLab1"
+	date:
+		creation:
+		modified:
+	status:
+title:
+	full:
+	acronym:
+	icon:
+lab:
+	creator:
+		id: 1
+		author: "NM"
+	landing:
+	language:
+	git:
+	image:
+	authentication:
+	version: "1"
+	volumes:
+		internal:
+		internal_alt:
+		external:
+	interfaces:
+		port: 8090
+	auxillary:
+	log:
+runtime:
+	gpu:
+	cpu:
+	tpu:
+	ram:
+type: "Lab"
+data-assets:
+-- Discovery metadata
+creator:
+	organisation:
+		name:
+		shortname:
+		domain:
+		url:
+		logo_url:
+publisher:
+	id:
+	organisation:
+		name:
+		shortname:
+		homepage:
+		logo_url:
+contact:
+	email:
+	-- should be "name"
+	uri:
+	organisation:
+		name:
+	-- should be "role"
+	name:
+	url:
+directorateESA:
+identifier:
+	doi:
+		url:
+		notation:
+		schemaAgency:
+	url:
+description:
+	short:
+	full:
+	
+platform:
+instrument:
+experiment:
+keywords:
+	science:
+	filetypes:
+target_audience:
+theme:
+license:
+copyright:
+citation:
