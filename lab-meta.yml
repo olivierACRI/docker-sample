@@ -19,6 +19,10 @@ permissions:
   group:
 
 # Common metadata (for interoperability; also discoverable)
+title:
+  full:
+  acronym:
+  icon:
 lab:
   identifier: "TestLab1"
 # TODO deprecated
@@ -26,11 +30,6 @@ lab:
 #    creation:
 #    modified:
   status:
-title:
-  full:
-  acronym:
-  icon:
-lab:
   creator:
     id: 1
     author: "NM"
