@@ -13,7 +13,7 @@ async def index_handler(request):
         <h1>Test lab</h1>
     </body>
 <html>
-""")
+""", content_type='text/html')
 
 async def test_handler(request):
     response = web.Response(text=f"""\
