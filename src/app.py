@@ -1,8 +1,12 @@
 from aiohttp import web
 import os
+import logging
+
+log = logging.getLogger(__name__)
 
 
 async def index_handler(request):
+    log.info('[Index handler]')
     return web.Response(text="""\
 <html>
     <head>
@@ -11,13 +15,24 @@ async def index_handler(request):
     </head>
     <body>
         <h1>Test lab</h1>
+        <a href="./test">Next</a>
     </body>
 <html>
 """, content_type='text/html')
 
 async def test_handler(request):
+    log.info('[Test handler]')
     response = web.Response(text=f"""\
-<p>Test</p>
+<html>
+    <head>
+        <title>Test page</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Test page</h1>
+        <a href="../">Back</a>
+    </body>
+<html>
 """)
     response.content_type = "text/html"
     return response
