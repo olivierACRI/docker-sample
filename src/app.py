@@ -30,7 +30,7 @@ async def test_handler(request):
     </head>
     <body>
         <h1>Test page</h1>
-        <a href="../">Back</a>
+        <a href="./">Back</a>
     </body>
 <html>
 """)
