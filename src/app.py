@@ -15,7 +15,7 @@ async def index_handler(request):
     </head>
     <body>
         <h1>Test lab</h1>
-        <a href="./test">Next</a>
+        <a href="/test">Next</a>
     </body>
 <html>
 """, content_type='text/html')
@@ -30,7 +30,7 @@ async def test_handler(request):
     </head>
     <body>
         <h1>Test page</h1>
-        <a href="./">Back</a>
+        <a href="/">Back</a>
     </body>
 <html>
 """)
