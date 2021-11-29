@@ -2,7 +2,7 @@
 title: Lab sample Hello world
 abstract: This lab is a simple lab
 alternateName: Hello Lab
-contactPoint
+contactPoint:
   email: olivier.daumas@acri-st.fr
   id: 123456
   organisation-name: acri-st
