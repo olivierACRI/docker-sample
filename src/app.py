@@ -82,5 +82,5 @@ app.add_routes([
 
 
 
-port_number = int(os.environ.get('PORT')) if os.environ.get('PORT').isdigit() else 8000
+port_number = int(os.environ.get('PORT')) if not os.environ.get('PORT') is None and os.environ.get('PORT').isdigit() else 8000
 web.run_app(app, port=port_number)
