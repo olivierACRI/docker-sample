@@ -1,4 +1,4 @@
-FROM python:3.7.11-slim-buster
+FROM python:3.9.10-slim-buster
 LABEL maintainer="nmaltsev@argans.eu"
 EXPOSE 8000
 ARG WORK_DIR="/opt"
