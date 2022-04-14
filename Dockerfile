@@ -1,4 +1,4 @@
-FROM python:3.9.10-slim-busteur
+FROM python:3.9.10-slim-buster
 LABEL maintainer="nmaltsev@argans.eu"
 EXPOSE 10000
 EXPOSE 8000
