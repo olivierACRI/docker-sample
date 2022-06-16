@@ -1,6 +1,6 @@
 # Common metadata (for interoperability; also discoverable)
 title: Lab sample Hello world
-abstract This lab is a simple lab
+abstract: This lab is a simple lab
 alternateName: Hello Lab
 contactPoint:
   email: olivier.daumas@acri-st.fr
