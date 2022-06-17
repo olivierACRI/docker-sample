@@ -6,7 +6,7 @@ ARG WORK_DIR="/opt"
 
 
 WORKDIR $WORK_DIR
-RUN pip install --upgrade pip && pip install aiohttp==3.7.4
+RUN pip install --upgrade pip && pip install
 COPY src/. ./
 RUN chmod +x ./main.sh
 
