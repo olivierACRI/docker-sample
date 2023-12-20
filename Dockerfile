@@ -1,6 +1,6 @@
-ARG BASE_VERSION=v2
+ARG BUILD_VERSION=0.8.0-stable
 ARG REGISTRY=scidockreg.esac.esa.int:62530
-FROM ${REGISTRY}/datalabs/datalabs_base:${BASE_VERSION}-20.04
+FROM ${REGISTRY}/datalabs/datalabs_base:${BUILD_VERSION}-20.04
 ENV DEBIAN_FRONTEND noninteractive
 LABEL maintainer="nmaltsev@argans.eu"
 EXPOSE 10000
