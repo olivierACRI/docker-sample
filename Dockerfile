@@ -1,4 +1,7 @@
-FROM python:3.9.10-slim-buster
+ARG BASE_VERSION=v2
+ARG REGISTRY=scidockreg.esac.esa.int:62530
+FROM ${REGISTRY}/datalabs/datalabs_base:${BASE_VERSION}-20.04
+ENV DEBIAN_FRONTEND noninteractive
 LABEL maintainer="nmaltsev@argans.eu"
 EXPOSE 10000
 EXPOSE 8000
