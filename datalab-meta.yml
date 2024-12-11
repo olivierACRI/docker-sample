@@ -3,7 +3,7 @@ title: Lab sample Hello world
 abstract: This lab is a simple lab
 alternateName: Hello Lab
 version: 1.0.0
-creator_name: oda
+creatorName: oda
 contactPoint:
   email: olivier.daumas@acri-st.fr
   id: 123456
